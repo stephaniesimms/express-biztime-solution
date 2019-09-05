@@ -4,6 +4,7 @@ node_js:
 services:
   - postgresql
 before_script:
+  - psql -c 'create database biztime;' -U postgres
   - psql < data.sql
 before_install:
 - npm update
