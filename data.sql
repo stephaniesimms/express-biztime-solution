@@ -1,6 +1,6 @@
 \c biztime
 
-SET TIME ZONE 'US/Pacific';
+ALTER database biztime SET timezone='US/Pacific';
 
 DROP TABLE IF EXISTS invoices;
 DROP TABLE IF EXISTS companies;
