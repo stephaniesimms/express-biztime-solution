@@ -1,5 +1,7 @@
 \c biztime
 
+SET TIME ZONE 'UTC';
+
 DROP TABLE IF EXISTS invoices;
 DROP TABLE IF EXISTS companies;
 
