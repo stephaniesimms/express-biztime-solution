@@ -38,7 +38,7 @@ describe("GET /1", function () {
           "invoice": {
             id: 1,
             amt: 100,
-            add_date: '2018-01-01T08:00:00.000Z',
+            add_date: '2018-01-01T00:00:00.000Z',
             paid: false,
             paid_date: null,
             company: {

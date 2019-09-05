@@ -1,7 +1,5 @@
 \c biztime
 
-SET TIME ZONE 'Etc/GMT+8';
-
 DROP TABLE IF EXISTS invoices;
 DROP TABLE IF EXISTS companies;
 
